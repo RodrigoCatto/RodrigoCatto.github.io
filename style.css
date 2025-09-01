@@ -246,3 +246,28 @@ hr {
   list-style-type: none;
   padding-left: 0;
 }
+
+.cv-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 30px;
+  background-color: #0251fb; /*4CAF50 */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+}
+.cv-button:hover {
+  background-color: #0251fb;
+}
+
+#dico {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icons and button */
+}
