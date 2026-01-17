@@ -201,6 +201,9 @@ hr {
 .pico {
   float: left;
   margin-right: 10px;
+  width: 120px;
+  height: 80px;
+  flex-shrink: 0;
 }
 .pdesc {
 }
@@ -208,9 +211,11 @@ hr {
   clear: both;
 }
 .pico img {
-  height: 80px;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
   border: 1px solid #999;
+  object-fit: cover;
 }
 .pub {
   font-size: 14px;
