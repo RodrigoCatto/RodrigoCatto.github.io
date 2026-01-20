@@ -233,7 +233,7 @@ hr {
 }
 .pub-authors {
   display: block;
-  color: #900;
+  color: rgb(0, 0, 0);
 }
 .tul {
   text-align: center;
